@@ -119,3 +119,8 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+
+##################
+# App specific #
+##################
+**/wwwroot/lib
