@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 RUN mkdir app
 WORKDIR /app
 COPY . /app
